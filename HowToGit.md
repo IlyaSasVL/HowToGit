@@ -23,3 +23,4 @@ git log --oneline
 ```sh
 git checkout
 ```
+[Руководство по Git](https://git-scm.com/book/en/v2)
