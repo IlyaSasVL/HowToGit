@@ -15,3 +15,11 @@ git commit -m "Massage"
 ```sh
 git log
 ```
+### Вывод истории коммитов в кратком виде
+```sh
+git log --oneline
+```
+### Перемещение между коммитами
+```sh
+git checkout
+```
