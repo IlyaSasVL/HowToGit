@@ -24,3 +24,15 @@ git log --oneline
 git checkout
 ```
 [Руководство по Git](https://git-scm.com/book/en/v2)
+
+
+
+
+
+
+
+
+### Слияние веток (для этого нужно переместиться на ветку master)
+```sh
+git merge <branch_name>
+```
