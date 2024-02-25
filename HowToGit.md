@@ -36,4 +36,12 @@ git log --oneline --graph
 ```sh
 git merge <branch_name>
 ```
+### Переименование ветки
+```sh
+git branch --move <bad-branch-name> <corrected-branch-name>
+```
+### Посмотреть последний коммит на каждой из веток
+```sh
+git branch -v
+```
 
