@@ -28,3 +28,7 @@ git checkout
 ```sh
 git branch --move <bad-branch-name> <corrected-branch-name>
 ```
+### Посмотреть последний коммит на каждой из веток
+```sh
+git branch -v
+```
