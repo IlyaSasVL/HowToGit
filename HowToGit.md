@@ -24,3 +24,8 @@ git log --oneline
 git checkout
 ```
 [Руководство по Git](https://git-scm.com/book/en/v2)
+### Перемещение между ветками 
+```sh
+git checkout <branch_name>
+```
+
