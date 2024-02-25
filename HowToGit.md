@@ -24,3 +24,7 @@ git log --oneline
 git checkout
 ```
 [Руководство по Git](https://git-scm.com/book/en/v2)
+### Переименование ветки
+```sh
+git branch --move <bad-branch-name> <corrected-branch-name>
+```
