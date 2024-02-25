@@ -24,3 +24,7 @@ git log --oneline
 git checkout
 ```
 [Руководство по Git](https://git-scm.com/book/en/v2)
+### посмотреть спиоск имеющихся тегов 
+```sh
+git tag
+```
