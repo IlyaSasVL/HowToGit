@@ -44,4 +44,8 @@ git branch --move <bad-branch-name> <corrected-branch-name>
 ```sh
 git branch -v
 ```
+### посмотреть спиоск имеющихся тегов 
+```sh
+git tag
+```
 
