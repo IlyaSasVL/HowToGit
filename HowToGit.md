@@ -28,4 +28,7 @@ git checkout
 ```sh
 git checkout <branch_name>
 ```
-
+### Отображение истории коммитов в кратком виде и в графической форме
+```sh
+git log --oneline --graph
+```
