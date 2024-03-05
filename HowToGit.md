@@ -65,12 +65,19 @@ git tag
 git clone <ссылка на удаленный репозиторий>
 ```
 ### Список команд для создания локальной версии удаленного репозитория (ветка master должна называться main)
+```sh
 git init
+
 git add README.md
+
 git commit -m "first commit"
+
 git branch -M main
+
 git remote add origin https://github.com/IlyaSasVL/HowToGit.git
+
 git push -u origin main
+```
 ### Связка локального и удаленного репозитория
 ```sh
 git remote add <repository_name> link
@@ -89,5 +96,10 @@ git push -u origin main
 ```sh
 git remote -v
 ```
+### Запрос изменений репозитоия с сервера
+```sh
+git pull
+```
+на сервере в удаленном репозитории нужно сделать коммит
 
 
