@@ -105,5 +105,8 @@ git pull
 ```sh
 git push --set-upstream origin <имя ветки>
 ```
-
+### Выкачка и слияние с текущими изменениями 
+```sh
+git pull --rebase
+```
 
