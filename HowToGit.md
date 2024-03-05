@@ -28,7 +28,6 @@ git log --graph
 git checkout
 ```
 [Руководство по Git](https://git-scm.com/book/en/v2)
-<<<<<<< HEAD
 ### Перемещение между ветками 
 ```sh
 git checkout <branch_name>
@@ -49,18 +48,13 @@ git branch --move <bad-branch-name> <corrected-branch-name>
 ```sh
 git branch -v
 ```
-=======
->>>>>>> branch4
 ### Посмотреть спиоск имеющихся тегов 
 ```sh
 git tag
 ```
-<<<<<<< HEAD
-
-=======
 ## Команды работы с удаленными репозиториями
 ### Клонирование репозитория 
 ```sh
 git clone <ссылка на удаленный репозиторий>
 ```
->>>>>>> branch4
+
