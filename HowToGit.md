@@ -3,7 +3,11 @@
 ```sh
 git init
 ```
-### Добавление содержимого рабочего каталога в индекс
+### Проверка статуса Git папке
+```sh
+Git status
+```
+### Добавление содержимого рабочего каталога в индекс (изменямый файл нужно сохранить)
 ```sh
 git add
 ```
@@ -25,7 +29,7 @@ git log --graph
 ```
 ### Перемещение между коммитами
 ```sh
-git checkout
+git checkout <первые четыре символа из номера коммита>
 ```
 ### Перемещение между ветками 
 ```sh
@@ -43,6 +47,10 @@ git merge <branch_name>
 ```sh
 git branch --move <bad-branch-name> <corrected-branch-name>
 ```
+### Изменение имени ветки master на main
+```sh
+git branch -M main
+```
 ### Посмотреть последний коммит на каждой из веток
 ```sh
 git branch -v
@@ -52,10 +60,29 @@ git branch -v
 git tag
 ```
 ## Команды работы с удаленными репозиториями
-### Клонирование репозитория 
+### Клонирование  удаленного репозитория на помпьютер 
 ```sh
 git clone <ссылка на удаленный репозиторий>
 ```
+### Список команд для создания локальной версии удаленного репозитория (ветка master должна называться main)
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/IlyaSasVL/HowToGit.git
+git push -u origin main
+### Связка локального и удаленного репозитория
+```sh
+git remote add <repository_name> link
+```
+repository_name - это имя удаленного репозитория
+
+link - ссылка на удаленный репозиторий
+### Отправка изменений на удаленный репозиторий
+```sh
+git push -u origin main
+```
+-u - это ключ указывающий что по умолчанию отправляется ветка main
 
 
 
